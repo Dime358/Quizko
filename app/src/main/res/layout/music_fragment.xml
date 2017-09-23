@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="20dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#616161"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:text="Music Category"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:gravity="center"
+            android:textColor="#FFF8E1"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+
+            android:text="Detali za katerogijata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="#FFF8E1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+
+            android:layout_below="@+id/textView6"
+            android:layout_above="@+id/btn_music" />
+
+        <Button
+            android:text="Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_music"
+            android:layout_marginBottom="20dp"
+            android:background="#FFEB3B"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+    </RelativeLayout>

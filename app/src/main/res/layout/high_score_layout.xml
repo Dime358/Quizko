@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLists">
+
+    <TextView
+        android:text="Player:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameLabel"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/poeni"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:fontFamily="casual"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameLabel"
+        android:layout_alignRight="@+id/nameLabel"
+        android:layout_alignEnd="@+id/nameLabel"
+        android:id="@+id/scorelabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreid"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="casual"
+        android:layout_alignBaseline="@+id/scorelabel"
+        android:layout_alignBottom="@+id/scorelabel"
+        android:layout_toRightOf="@+id/scorelabel"
+        android:layout_toEndOf="@+id/scorelabel" />
+
+    <TextView
+        android:text="name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameid"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:fontFamily="casual"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBaseline="@+id/nameLabel"
+        android:layout_alignBottom="@+id/nameLabel"
+        android:layout_toRightOf="@+id/nameLabel"
+        android:layout_toEndOf="@+id/nameLabel" />
+
+
+</RelativeLayout>

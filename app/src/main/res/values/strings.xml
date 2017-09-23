@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Quizz</string>
+
+    <string name="start">Старт</string>
+    <string name="odgovoreni_prasanja">Одговорени прашања</string>
+    <string name="nova_igra">Нова Игра</string>
+    <string name="najdobri_rezultati">Најдобри резултати</string>
+    <string name="poeni">Поени </string>
+    <string name="pobednik">Победник</string>
+
+    <string name="bodovi_pobeda">Бодови за победа:</string>
+    <string name="broj_igraci">Број на играчи:</string>
+
+    <string name="movie_naslov">Филмови</string>
+    <string name="tv_naslov">ТВ Серии</string>
+    <string name="history_naslov">Историја</string>
+    <string name="geography_naslov">Географија</string>
+    <string name="sport_naslov">Спорт</string>
+
+    <string name="sport_opis">Катеогоријата содржи прашања за: \n \n  - Спортисти \n - Спортски настани \n - Спортски датуми \n - Достигнувања </string>
+    <string name="tv_opis">Катеогоријата содржи прашања за: \n \n  -ТВ Ликови \n - Детали во серии \n - Актери \n - Добиени награди </string>
+    <string name="movie_opis">Катеогоријата содржи прашања за: \n \n  - Имиња на филмови \n - Режисери \n - Актери \n - Добиени награди</string>
+    <string name="history_opis">Катеогоријата содржи прашања за: \n \n  - Значајни настани \n - Светски војни  \n - Античка историја \n - Значајни датуми </string>
+    <string name="geography_opis">Катеогоријата содржи прашања за: \n \n  - Континенти \n - Водени површини \n - Рељеф на земји \n - Астрономија </string>
+
+
+
+
+
+
+</resources>

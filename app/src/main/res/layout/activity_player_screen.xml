@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_player_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMain"
+
+    tools:context="com.example.dime.quizz.playerScreen">
+
+
+    <Button
+        android:text="@string/start"
+        android:background="@color/colorBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/startGame"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#14494d"
+        android:fontFamily="serif-monospace"
+        android:textSize="17sp"/>
+
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSecondary"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="3dp"
+        android:layout_below="@+id/toolbar_players"
+        android:id="@+id/relativeLayout3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:text="@string/bodovi_pobeda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/colorText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/targetScore"
+            android:layout_toLeftOf="@+id/btnScoreLower"
+            android:layout_toStartOf="@+id/btnScoreLower"
+            android:layout_alignBottom="@+id/targetScore" />
+
+        <Button
+            android:text=" "
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnScoreHiger"
+            android:background="@drawable/right"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/targetScore"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/colorText"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btnScoreHiger"
+            android:layout_toStartOf="@+id/btnScoreHiger" />
+
+        <Button
+            android:text=" "
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnScoreLower"
+            android:background="@drawable/left"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/targetScore"
+            android:layout_toStartOf="@+id/targetScore" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/colorSecondary"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:text="@string/broj_igraci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/colorText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/playerCount"
+            android:layout_alignTop="@+id/playerCount"
+            android:layout_toLeftOf="@+id/button2"
+            android:layout_toStartOf="@+id/button2" />
+
+        <TextView
+            android:text="1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/playerCount"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/colorText"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/button3"
+            android:layout_toStartOf="@+id/button3" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:background="@drawable/left"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/playerCount"
+            android:layout_toStartOf="@+id/playerCount" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:background="@drawable/right"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="false"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_above="@+id/startGame" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_players"
+        android:background="@color/colorDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:id="@+id/main_toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:text=""
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:id="@+id/btnback"
+                android:background="@drawable/back_arrow"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:text=" asdasdasd"
+                android:textSize="20dp"
+                android:textColor="@color/colorText"
+                android:gravity="center"
+                android:id="@+id/categoryLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/open"
+                android:layout_alignBottom="@+id/open"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/btnback"
+                android:layout_toRightOf="@+id/btnback" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+</RelativeLayout>
+
+
+
+

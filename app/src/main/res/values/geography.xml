@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="geo0">
+        <item>Кој е главен град на USA?</item>
+        <item>Chicago</item>
+        <item>Washington, D.C.</item>
+        <item>New York City</item>
+        <item>two</item>
+    </string-array>
+    <string-array name="geo1">
+        <item>Кој е главен град на Канада?</item>
+        <item>Ottawa</item>
+        <item>Toronto</item>
+        <item>Montreal</item>
+        <item>one</item>
+    </string-array>
+    <string-array name="geo3">
+        <item>Кој е главен град на Јапонија?</item>
+        <item>Kyoto</item>
+        <item>Osaka</item>
+        <item>Tokyo</item>
+        <item>three</item>
+    </string-array>
+    <string-array name="geo4">
+        <item>Кој е главен град на Индија?</item>
+        <item>Mumbai</item>
+        <item>New Delhi</item>
+        <item>Kolkata</item>
+        <item>two</item>
+    </string-array>
+    <string-array name="geo5">
+        <item>Кој е главен град на Русија?</item>
+        <item>Novosibirsk</item>
+        <item>St. Petersburg</item>
+        <item>Moscow</item>
+        <item>three</item>
+    </string-array>
+    <string-array name="geo6">
+        <item>Кој е главен град на Холандија?</item>
+        <item>Amsterdam</item>
+        <item>Rotterdam</item>
+        <item>Leiden</item>
+        <item>one</item>
+    </string-array>
+    <string-array name="geo7">
+        <item>Кој е главен град на Аргентина?</item>
+        <item>Bariloche</item>
+        <item>Buenos Aires</item>
+        <item>Mendoza</item>
+        <item>two</item>
+    </string-array>
+    <string-array name="geo8">
+        <item>Кој е главен град на Израел?</item>
+        <item>Haifa</item>
+        <item>Tel Aviv</item>
+        <item>Jerusalem</item>
+        <item>three</item>
+    </string-array>
+    <string-array name="geo9">
+        <item>Кој е главен град на Аванистан?</item>
+        <item>Kabul</item>
+        <item>Kunduz</item>
+        <item>Herat</item>
+        <item>one</item>
+    </string-array>
+    <string-array name="geo10">
+        <item>Кој е главен град на Словенија?</item>
+        <item>Ljubljana</item>
+        <item>Koper</item>
+        <item>Kranj</item>
+        <item>one</item>
+    </string-array>
+</resources>

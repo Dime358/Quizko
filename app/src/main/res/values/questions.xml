@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="question0">
+        <item>Кој од James Bond филмовите прв доби оскар?</item>
+        <item>The Spy Who Loved Me (1977)</item>
+        <item>From Russia with Love (1963)</item>
+        <item>Goldfinger (1964)</item>
+        <item>three</item>
+    </string-array>
+
+    <string-array name="question1">
+        <item>Кој филм има добиено оскари за:Најдобар филм,најдобар актер,најдобра актерка,најдобар режисер и најдобро сценарио?</item>
+        <item>Ben-Hur (1959)</item>
+        <item>One Flew Over the Cuckoo\'s Nest (1975)</item>
+        <item>Titanic (1997)</item>
+        <item>two</item>
+    </string-array>
+
+    <string-array name="question2">
+        <item>Кој актер го глумеше капетанот Jack Sparrow  во филмот Pirates of Caribbean?</item>
+        <item>Johnny Depp</item>
+        <item>Orlando Bloom</item>
+        <item>Hugh Jackman</item>
+        <item>one</item>
+    </string-array>
+
+    <string-array name="question3">
+        <item>Кој актер го глумеше Neo во филмот Matrix?</item>
+        <item>Keanu Reeves</item>
+        <item>Laurence Fishburne</item>
+        <item>Hugo Weaving</item>
+        <item>one</item>
+    </string-array>
+    <string-array name="question4">
+        <item>Од која планета е Superman?</item>
+        <item>Krypton</item>
+        <item>Ashara</item>
+        <item>Mars</item>
+        <item>one</item>
+    </string-array>
+
+    <string-array name="question5">
+        <item>Кој е режисер на филмот Avatar?</item>
+        <item>Steven Spielberg</item>
+        <item>James Cameron</item>
+        <item>Peter Jackson</item>
+        <item>two</item>
+    </string-array>
+
+    <string-array name="question6">
+        <item>Кој е режисер на филмовите Lord of the Rings и King Kong(2005)?</item>
+        <item>Steven Spielberg</item>
+        <item>James Cameron</item>
+        <item>Peter Jackson</item>
+        <item>three</item>
+    </string-array>
+
+    <string-array name="question7">
+        <item>Кој е режисер на филмовите Jaws(1975),E.T.(1982) и Saving Private Ryan?</item>
+        <item>Steven Spielberg</item>
+        <item>James Cameron</item>
+        <item>Peter Jackson</item>
+        <item>one</item>
+    </string-array>
+
+    <string-array name="question8">
+        <item>Кое е главното оружје на главните ликови во филмот Star Wars?</item>
+        <item>Guns</item>
+        <item>Lightsaber</item>
+        <item>AK-47</item>
+        <item>two</item>
+    </string-array>
+
+    <string-array name="question9">
+        <item>Кој е режисер на филмовите Jaws(1975),E.T.(1982) и Saving Private Ryan?</item>
+        <item>Steven Spielberg</item>
+        <item>James Cameron</item>
+        <item>Peter Jackson</item>
+        <item>one</item>
+    </string-array>
+
+    <string-array name="question10">
+        <item>Која година е испаднат филмот Jurassic park?</item>
+        <item>1989</item>
+        <item>1997</item>
+        <item>1993</item>
+        <item>three</item>
+    </string-array>
+
+</resources>
